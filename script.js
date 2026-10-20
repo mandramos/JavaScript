@@ -164,7 +164,81 @@ else if(semana == 6 ){console.log(Sexta)}
 else if(semana == 7 ){console.log(Sábado)}
 else {console.log("Dia inválido")}
 
+
+//&& = E
+// || = OU
+
+let idadeDirigir = 19;
+let temCNH = true;
+let temCarro = false;
+
+if(idadeDirigir >= 18 && temCNH == true && temCarro == true){
+    console.log("Você pode dirigir")
+} else{
+    console.log("Você não pode dirigir")
+}
    
+let ehProfessor = false
+let ehAluno = false
+
+if(ehProfessor == true || ehAluno == true){
+    console.log("Você tem direito a meia-entrada")
+}else{
+    console.log("Você não tem direito a meia-entrada")
+}
+
+//ATIVIDADE 1
+let number=5
+if(number > 10 && number < 50){
+    console.log ("O número está dentro do intervalo")
+}else{
+    console.log ("O número está fora do intervalo")
+}
+
+//ATIVIDADE 2
+let old = 12
+if(old > 15 && old < 23)
+{console.log ("Você atende aos requisitos")}
+else{
+    console.log ("Você não atende aos requisitos")
+}
+
+//ATIVIDADE 3
+let valorCompra= 100
+let ehAssinante= false
+if(valorCompra >= 200 || ehAssinante == true)
+{console.log ("Você tem direito a frete grátis")}
+else{console.log("Você não tem direito a frete grátis")}
+
+//ATIVIDADE 4
+let week="Terça"
+if(week == "Sábado" || week == "Domingo"){
+    console.log("Fim de semana")
+}else{console.log("Dia Inválido")}
+
+//ATIVIDADE 5
+let valor= 300
+let valorFinal= valor * 0.85
+let temAssinatura = false
+let temCupom=false
+if(valor >= 150 && temAssinatura == true || temCupom == true){
+    console.log(`O desconto será aplicado e o valor final é de ${valorFinal} reais`);
+}else console.log(`O desconto não será aplicado e o valor final é de ${valor} reais`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
